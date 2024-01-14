@@ -65,6 +65,8 @@ public class userLogin extends amazonBase {
 		ap = new amazonHomePage(driver);
 		Assert.assertTrue(ap.verifySearchResults());
 		
+		//now we quite all the windows 
+		
 		closeall();
 	  
 	}
